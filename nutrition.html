@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Nutrition</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css2/page2.css">
+  <script src="css2/page2_function.js"></script>
+  <style type="text/css">
+    html {
+      scroll-behavior: smooth;
+      /* Make a smooth scrolling effect */
+    }
+  </style>
+</head>
+
+<body class="background">
+
+  <!-- Page Container -->
+  <div class="container" style="margin: -8px;">
+    <div id="container-wrap">
+      <!-- Navigation bar -->
+      <div class="navbar">
+        <a href="#">Home</a>
+        <a href="nutrition.html">Nutrition</a>
+        <a href="#">Fitness</a>
+        <a href="contact.html">Contact Us</a>
+
+      </div>
+
+      <!-- Title Banner -->
+      <br>
+      <br>
+      <div class="banner">
+        <div class="title">N U T R I T I O N</div>
+        <img src="css2/banner2.jpg" alt="nutrition" style="width:100%; height: 0%">
+
+      </div>
+
+      <!-- Description Content -->
+      <h3>DON'T EAT LESS, EAT RIGHT.</h3>
+      <br>
+
+      <!-- BMI description box -->
+      <div class="bmi_box">
+        <img src="css2/bmi.jpg" style="width: 50%; height: 100%; float: right;">
+        <p><span style="font-family: tahoma; font-size: 150%; font-weight: bold;">What is <span style="color: red;">BMI
+            </span>?</span></p>
+        <p>
+          BMI or Body Mass Index is a measurement that is a ratio of your weight and height. It is a good way to gauge
+          whether your weight is in healty proportion to your height.
+
+        </p>
+      </div>
+      <br>
+
+      <div class="bmi_box2">
+        <img src="css2/bmi2.jpg" style="width: 50%; height: 100%; float: right;">
+        <p><span style="font-family: tahoma; font-size: 125%; font-weight: bold;"><span style="color: red;">Examples
+            </span>of health risks if out of the healthy range</span></p>
+        <p>Being overweight can lead to a range of chronic conditions including:</p>
+        <dl>
+          <dd>- <a href="https://www.mayoclinic.org/diseases-conditions/type-2-diabetes/symptoms-causes/syc-20351193"
+              target="_blank" style="text-decoration: none;"> Type 2 Diabetes</a></dd>
+          <dd>- <a
+              href="https://www.healthline.com/health/high-blood-pressure-hypertension#:~:text=Hypertension%2C%20or%20high%20blood%20pressure,%2C%20stroke%2C%20and%20other%20problems."
+              target="_blank" style="text-decoration: none;"> High blood pressure</a></dd>
+          <dd>- <a
+              href="https://www.mayoclinic.org/diseases-conditions/osteoarthritis/symptoms-causes/syc-20351925#:~:text=Osteoarthritis%20is%20the%20most%20common,%2C%20knees%2C%20hips%20and%20spine."
+              target="_blank" style="text-decoration: none;"> Osteoarthritis</a></dd>
+          <dd>- <a href="https://my.clevelandclinic.org/health/articles/17308-obesity--heart-disease" target="_blank"
+              style="text-decoration: none;"> Cardiovascular disease</a></dd>
+        </dl>
+
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <div>
+        <img src="css2/line1.jpg" style="width: 500px; margin-left: 470px; margin-top: -50px; z-index: -1;">
+        <h3 style="font-family: verdana; font-size: 20px; z-index: 0;">YOU CANNOT ENJOY WEALTH </h3>
+        <h3 style="z-index: 0;">IF YOU ARE NOT IN GOOD HEALTH</h3>
+      </div>
+
+
+      <br>
+
+      <!-- Calculate now column | Find a health diet plan-->
+      <div class="row" style="display: flex;">
+        <div class="bmi_box" style="width: 450px; height: 320px; margin-left: 160px; padding-right: 10px;">
+          <h4>
+            <span style="font-family: verdana; font-weight: bold; font-size: 120%; text-align: left;">Assessing Your
+              <span style="font-size: 25px; color: #006A4E">Weight </span> and &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+              <span style="font-size: 25px; color: #006A4E;"> Health Risk </span>
+            </span>
+          </h4>
+          <p style="text-align: justify;">Calculate Your Body Mass Index Body mass index (BMI) is a measure of body fat
+            based on height and weight that applies to adult men and women.</p>
+          <div style="z-index: 1;">
+            <!-- After clicking button, it will scroll to calculator part -->
+            <button class="bmi_button">
+              <a href="#calculator_part" style="text-decoration: none; color: black;">Calculate BMI</a>
+            </button>
+          </div>
+          <div style="z-index: 2;"><img src="css2/bmi.png"
+              style="width: 110px; margin-top: -50px; margin-left: 250px; transform: rotate(20deg); position: relative; ">
+          </div>
+
+        </div>
+
+        <div class="bmi_box" style="width: 450px; height: 320px; margin-right: 160px; padding-right: 10px;">
+          <h4>
+            <span style="font-family: verdana; font-weight: bold; font-size: 120%; text-align: left;">Healthy eating
+              keeps the heart beating</span>
+          </h4>
+          <p style="text-align: justify;">NutriDiet offer a guide to help you eat a variety of foods in balance and
+            moderation so that you can achieve a healthy weight.</p>
+          <div>
+            <button class="mealplanner">
+              <a href="#mealplanner_part" style="text-decoration: none; color: black;">Checkout now</a>
+            </button> <!-- Checkout meal plan button-->
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <!-- Hide the calculator at first, display after button click -->
+      <!-- Calculator container -->
+      <h3>.</h3>
+      <h3>.</h3>
+      <h3>.</h3>
+      <div id="calculator_part">
+        <h3 style="font-size: 25px; margin-bottom: 5px;">CALCULATE YOUR BMI NOW BY USING BELOW CALCULATOR</h3>
+
+
+        <div class="calculator">
+          <!-- display: none;-->
+          <div class="calculator_background" style="z-index: -1"></div>
+          <div class="calcontainer">
+            <!-- Calculator part-->
+            <div class="calculator_base" style="z-index: 0;">
+              <div class="calculator_header">BMI CALCULATOR</div>
+              <div class="calculator_layer">
+                <div class="calculator_instruction">YOUR BODY MASS INDEX (BMI)</div>
+                <!-- BMI result container-->
+                <div class="calculator_output">
+                  <output id="bmi_result" style="padding:-20px;"></output>
+                </div>
+                <div class="calculator_heightweight" style="top: 210px">HEIGHT</div>
+                <div class="calculator_heightweight" style="top: 315px; left: 20px">WEIGHT</div>
+                <div class="cm">CM</div>
+                <div class="cm" style="margin-top: 146px; font-size: 155%;">KG</div>
+                <div class="calculator_instruction" style="margin-top: 365px; left: 55px; font-size: 100%;">YOUR
+                  WEIGHT STATUS</div>
+                <div class="calculator_output" style="height:20px; margin-top: 300px;">
+                  <output id="bmi_category"></output>
+                </div>
+                <div>
+                  <input class="calculator_input" type="number" name="height" id="height">
+                </div>
+                <div>
+                  <input class="calculator_input" type="number" style="margin-top: -238px" name="weight" id="weight">
+                </div>
+                <div><input type="submit" value="Calculate" class="calculator_button"
+                    onclick="calculateBMI(); validate()"></div>
+              </div>
+            </div>
+
+            <div class="category_description">
+              <h1>BMI Categories:</h1>
+              <p>Underweight &nbsp;&nbsp; = less than 18.5</p>
+              <p>Normal weight &nbsp;= 18.5 to 24.9</p>
+              <p>Overweight &nbsp;&nbsp;&nbsp;&nbsp;= 25 to 29.9</p>
+              <p>Obesity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= BMI of 30 or greater</p>
+              <img src="css2/arrow.png" style="width: 330px; height:220px; margin-top: 30px; margin-left: -160px;">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <h3 style="margin-top: -100px;">.</h3>
+      <h3>.</h3>
+      <h3>.</h3>
+
+      <!-- Meal Plan part -->
+      <div id="mealplanner_part">
+
+        <h3 style="font-size: 25px; margin-bottom: 10px; margin-top: 15px;">DIET MEAL MENU FOR <span
+            style="color: red;">1200 KCAL</span></h3>
+        <div class="mealplanner_container">
+          <!-- Row 1 Column 1-->
+          <div><img src="css2/breakfast.jpg" style="margin: auto; width: 274px;"></div>
+          <!-- Row 1 Column 2-->
+          <div><img src="css2/lunch.jpg" style="margin: auto; width: 274px;"></div>
+          <!-- Row 1 Column 3-->
+          <div><img src="css2/teatime.jpg" style="margin: auto; width: 274px;"></div>
+          <!-- Row 1 Column 4-->
+          <div><img src="css2/dinner.jpg" style="margin: auto; width: 274px;"></div>
+          <!-- Row 2 Column 1-->
+          <div>
+            <br>
+            <p>2 slices whole meal bread</p>
+            <p style="margin-top: -25px; margin-bottom: -5px;">________________________</p>
+            <p>1/4 teaspoon soft margarine</p>
+            <p style="margin-top: -25px; margin-bottom: -5px;">_________________________</p>
+            <p>2 slices of tomato</p>
+            <p style="margin-top: -25px; margin-bottom: -5px;">_________________________</p>
+            <p>salad</p>
+            <p style="margin-top: -25px; margin-bottom: -5px;">_________________________</p>
+            <p>1 cup low fat milk</p>
+          </div>
+          <!-- Row 2 Column 2-->
+          <div>
+
+            <p style="margin-top: 28px;">1 cup rice <span id="or">OR</span> 2 cups porridge</p>
+            <p style="margin-top: -20px; margin-bottom: -10px;">________________________</p>
+            <p>1 medium bowl vegetable soup</p>
+            <p style="margin-top: -20px; margin-bottom: -10px;">________________________</p>
+            <p>1 piece steamed fish <span id="or">OR</span> grilled fish</p>
+            <p style="margin-top: -20px; margin-bottom: -10px;">________________________</p>
+            <p>1 medium orange</p>
+            <p style="margin-top: -20px; margin-bottom: -10px;">________________________</p>
+            <p>1 glass plain water</p>
+          </div>
+          <!-- Row 2 Column 3-->
+          <div>
+            <br>
+            <br>
+            <p>3 pieces whole grain crackers</p>
+            <p style="margin-top: -20px; margin-bottom: -2px;">________________________</p>
+            <p>1 glass of plain water <span id="or">OR</span> coffee <span id="or">OR</span> tea without sugar</p>
+            <p style="margin-top: -20px; margin-bottom: -2px;">________________________</p>
+            <p>1 slice honeydrew <span id="or">OR</span> papaya</p>
+          </div>
+          <!-- Row 2 Column 4-->
+          <div>
+            <br>
+            <p style="margin-top: 5px;">1 cup rice <span id="or">OR</span> 2 cups porridge</p>
+            <p style="margin-top: -25px; margin-bottom: -10px;">________________________</p>
+            <p>1/2 cup stir fried kale</p>
+            <p style="margin-top: -25px; margin-bottom: -10px;">________________________</p>
+            <p>1 bowl tomyam (1 chicken drumstick)</p>
+            <p style="margin-top: -25px; margin-bottom: -10px;">________________________</p>
+            <p>1/2 cup (cauliflower + carrot + celery + tomato)</p>
+            <p style="margin-top: -25px; margin-bottom: -10px;">________________________</p>
+            <p>1 glass plain water</p>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div> <!-- Content wrap till here--->
+
+    <br>
+    <br>
+    <br>
+    <!-- Footer here -->
+    <footer>
+      <div class="footer_part">
+        <br>
+        <div id="footer-container">
+          <div class="inline-block">
+            <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="css2/ig.png" style="width: 35px;"></a>
+          </div>
+          <div class="inline-block">
+            <a href="https://www.facebook.com/" target="_blank"><img src="css2/fb.png" style="width: 35px;"></a>
+          </div>
+          <div class="inline-block">
+            <a href="https://twitter.com/?lang=en" target="_blank"><img src="css2/twi.png" style="width: 35px;"></a>
+          </div>
+          <div class="inline-block">
+            <a href="https://telegram.org/" target="_blank"><img src="css2/te.png" style="width: 35px;"></a>
+          </div>
+        </div>
+
+        <nav id="navi">
+          <a href="/nutridiet/intro.html" id="navi-design">Home</a>
+          <a href="#nutrition" id="navi-design">Nutrition</a>
+          <a href="#fitness" id="navi-design">Fitness</a>
+        </nav>
+
+
+        <p style="margin-top: 0px; color: black; font-family: monospace; font-size: 15px;">NutriDiet © 2021</p>
+
+      </div>
+    </footer>
+
+  </div> <!-- End of page Container -->
+
+
+</body>
+
+</html>
